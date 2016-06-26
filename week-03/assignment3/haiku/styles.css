@@ -1,0 +1,177 @@
+/* div consistent styles */
+div {
+	width: 600px;
+	height: 400px;
+	text-align: center;
+}
+
+/* individual line styles */
+
+#lineOne {
+	background-color: black;
+	color: white;
+	padding-top: 200px;
+	font-size: 200%;
+	font-family: 'Amatic SC', cursive;
+}
+
+#lineTwo {
+	background-color: white;
+	padding-top: 150px;
+	color: orange;
+	font-size: 400%;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+}
+
+
+#lineThree {
+	font-family: 'Codystar', cursive;
+	font-size: 400%;
+	color: #FFFF99;
+	background-color: white;
+	padding-top: 150px;
+}
+
+
+/* fadeInUp animation for second line*/
+
+.animated {
+-webkit-animation-fill-mode: both;
+-moz-animation-fill-mode: both;
+-ms-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ms-animation-duration: 1s;
+-o-animation-duration: 1s;
+animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInUp {
+0% {
+opacity: 0;
+-webkit-transform: translateY(250px);
+}
+
+100% {
+opacity: 1;
+-webkit-transform: translateY(0);
+}
+}
+
+@-moz-keyframes fadeInUp {
+0% {
+opacity: 0;
+-moz-transform: translateY(250px);
+}
+
+100% {
+opacity: 1;
+-moz-transform: translateY(0);
+}
+}
+
+@-o-keyframes fadeInUp {
+0% {
+opacity: 0;
+-o-transform: translateY(250px);
+}
+
+100% {
+opacity: 1;
+-o-transform: translateY(0);
+}
+}
+
+@keyframes fadeInUp {
+0% {
+opacity: 0;
+transform: translateY(250px);
+}
+
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.fadeInUp {
+-webkit-animation-name: fadeInUp;
+-moz-animation-name: fadeInUp;
+-o-animation-name: fadeInUp;
+animation-name: fadeInUp;
+}
+
+.delay-one {
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+}
+
+
+/* Pulsing effect for line three */
+
+.pulse1 {
+	-webkit-animation: pulse1 1s linear infinite;
+	-moz-animation: pulse1 1s linear infinite;
+	-ms-animation: pulse1 1s linear infinite;
+	animation: pulse1 1s linear infinite;
+}
+
+@keyframes "pulse1" {
+ 0% {
+    color: #FFFFCC;
+ }
+ 50% {
+    color: #FFCC99;
+ }
+ 100% {
+    color: #FF9999;
+ }
+
+}
+
+@-moz-keyframes pulse1 {
+ 0% {
+   color: #FFFFCC;
+ }
+ 50% {
+   color: #FFCC99;
+ }
+ 100% {
+   color: #FF9999;
+ }
+
+}
+
+@-webkit-keyframes "pulse1" {
+ 0% {
+   color: #FFFFCC;
+ }
+ 50% {
+   color: #FFCC99;
+ }
+ 100% {
+   color: #FF9999;
+ }
+
+}
+
+@-ms-keyframes "pulse1" {
+ 0% {
+   color: #FFFFCC;
+ }
+ 50% {
+   color: #FFCC99;
+ }
+ 100% {
+   color: #FF9999;
+ }
+
+}
+
+
+
