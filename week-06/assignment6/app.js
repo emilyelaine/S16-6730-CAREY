@@ -5,6 +5,7 @@ function setup() {
 	tree = loadImage('tree.png');
  	createCanvas(500, 500);
 
+
   	spr = createSprite(random(100,400), random(100,200), 10, 10);
   	spr1 = createSprite(random(100,400), random(100,200), 10, 10);
   	spr2 = createSprite(random(100,400), random(100,200), 10, 10);
